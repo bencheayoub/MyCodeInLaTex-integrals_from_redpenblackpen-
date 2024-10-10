@@ -1,0 +1,181 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{multicol}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+\section*{Integrals}
+
+\begin{enumerate}
+    \item $\displaystyle \int \tan^5(x)\sec^3(x) \, dx$
+    \item $\displaystyle \int \frac{\cos(2x)}{\sin(x) + \cos(x)} \, dx$
+    \item $\displaystyle \int \frac{x^2+1}{x^4-x^2+1} \, dx$
+    \item $\displaystyle \int (x+e^x)^2 \, dx$
+    \item $\displaystyle \int \csc^3(x)\sec(x) \, dx$
+    \item $\displaystyle \int \frac{\cos(x)}{\sin^2(x)-5\sin(x)-6} \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt{e^x}} \, dx$
+    \item $\displaystyle \int \frac{e^x\sqrt{e^x-1}}{e^x+3} \, dx$
+    \item $\displaystyle \int \frac{1}{x+\sqrt{x}} \, dx$
+    \item $\displaystyle \int_{-1}^{5} |x-3| \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{\sec^{2019}(x)} \, dx$
+    \item $\displaystyle \int \frac{x\sin^{-1}(x)}{\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \frac{2\sin(x)}{\sin(2x)} \, dx$
+    \item $\displaystyle \int \cos^2(2x) \, dx$
+    \item $\displaystyle \int \frac{1}{x^3+1} \, dx$
+    \item $\displaystyle \int x\sin^2(x) \, dx$
+    \item $\displaystyle \int (x+\frac{1}{x})^2 \, dx$
+    \item $\displaystyle \int \frac{3}{x^2+4x+29} \, dx$
+    \item $\displaystyle \int \cot^5(x) \, dx$
+    \item $\displaystyle \int \frac{1}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{1}{\cos(x)} \, dx$
+    \item $\displaystyle \int \tan(x) \, dx$
+    \item $\displaystyle \int \cot(x) \, dx$
+    \item $\displaystyle \int \sec(x) \, dx$
+    \item $\displaystyle \int \csc(x) \, dx$
+    \item $\displaystyle \int \cos(\sqrt{x}) \, dx$
+    \item $\displaystyle \int \csc(x) \, dx$
+    \item $\displaystyle \int \sqrt{x^2+4x+13} \, dx$
+    \item $\displaystyle \int e^{2x}\cos(x) \, dx$
+    \item $\displaystyle \int_{3}^{5} (x-3)^9 \, dx$
+    \item $\displaystyle \int (x-x^{3/2})^{-1/2} \, dx$
+    \item $\displaystyle \int (x-x^2)^{-1/2} \, dx$
+    \item $\displaystyle \int e^{2\ln(x)} \, dx$
+    \item $\displaystyle \int \frac{\ln(x)}{\sqrt{x}} \, dx$
+    \item $\displaystyle \int \frac{1}{e^x+e^{-x}} \, dx$
+    \item $\displaystyle \int \log_2(x) \, dx$
+    \item $\displaystyle \int x^3\sin(2x) \, dx$
+    \item $\displaystyle \int x^2(1+x^3)^{1/3} \, dx$
+    \item $\displaystyle \int \sqrt{1-\sin(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1+\cos(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1-\cos(x)} \, dx$
+    \item $\displaystyle \int \sinh(x)^2 \, dx$
+    \item $\displaystyle \int \sinh(x)^3 \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt{x^2 + 1}} \, dx$
+    \item $\displaystyle \int \ln(x + \sqrt{x^2 + 1}) \, dx$
+    \item $\displaystyle \int \tanh(x) \, dx$
+    \item $\displaystyle \int \sec(x) \, dx$
+    \item $\displaystyle \int \tanh^{-1}(x) \, dx$
+    \item $\displaystyle \int \sqrt{\tanh(x)} \, dx$
+    \item $\displaystyle \int \lfloor x \rfloor \, dx$
+    \item $\displaystyle \int \sec^6(x) \, dx$
+    \item $\displaystyle \int \frac{1}{(5x-2)^4} \, dx$
+    \item $\displaystyle \int \ln(1+x^2) \, dx$
+    \item $\displaystyle \int \frac{1}{x^4+x} \, dx$
+    \item $\displaystyle \int \frac{1-\tan(x)}{1 + \tan(x)} \, dx$
+    \item $\displaystyle \int x\sec(x)\tan(x) \, dx$
+    \item $\displaystyle \int \text{arcsec}(x) \, dx$
+    \item $\displaystyle \int \frac{1-\cos(x)}{1 + \cos(x)} \, dx$
+    \item $\displaystyle \int x^2\sqrt{x+4} \, dx$
+    \item $\displaystyle \int_{-1}^{1} \sqrt{4-x^2} \, dx$
+    \item $\displaystyle \int \sqrt{x^2+4x} \, dx$
+    \item $\displaystyle \int x^2e^{x^3} \, dx$
+    \item $\displaystyle \int x^3e^{x^2} \, dx$
+    \item $\displaystyle \int \tan(x)\ln(\cos(x)) \, dx$
+    \item $\displaystyle \int \frac{1}{x^3-4x^2} \, dx$
+    \item $\displaystyle \int \sin(x)\cos(2x) \, dx$
+    \item $\displaystyle \int 2^{\ln(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1+\cos(2x)} \, dx$
+    \item $\displaystyle \int \frac{1}{1+\tan(x)} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{1- \ln(x)^2}}{x} \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt[3]{x} + 1} , dx$
+    \item $\displaystyle \int \frac{1}{\sqrt[3]{x + 1}} , dx$
+    \item $\displaystyle \int (\sin(x) + \cos(x))^2 , dx$
+    \item $\displaystyle \int 2x \ln(1 - x) , dx$
+    \item $\displaystyle \int \frac{1}{x(1 + \sin^2(\ln x))} , dx$
+    \item $\displaystyle \int \sqrt{\frac{1 - x}{1 + x}} , dx$
+    \item $\displaystyle \int x^{x / \ln x} , dx$
+    \item $\displaystyle \int \arcsin(\sqrt{x}) , dx$
+    \item $\displaystyle \int \arctan(x) , dx$
+    \item $\displaystyle \int_{0}^{5} f(x) , dx$, where $f(x)$ is a piecewise function
+    \item $\displaystyle \int \frac{\sin(1/x)}{x^3} , dx$
+    \item $\displaystyle \int \frac{x - 1}{x^4 - 1} , dx$
+    \item $\displaystyle \int \sqrt{1 + \left(x - \frac{1}{4x}\right)^2} , dx$
+    \item $\displaystyle \int \frac{e^{\tan(x)}}{1 - \sin^2(x)} , dx$
+    \item $\displaystyle \int \frac{\arctan(x)}{x^2} , dx$
+    \item $\displaystyle \int \frac{\arctan(x)}{1 + x^2} , dx$
+    \item $\displaystyle \int (\ln(x))^2 , dx$
+    \item $\displaystyle \int \frac{\sqrt{x^2 + 4}}{x^2} , dx$
+    \item $\displaystyle \int \frac{\sqrt{x + 4}}{x} , dx$
+    \item $\displaystyle \int \frac{\sin^3(x)}{\cos^3(x) + \sin^3(x)} , dx$
+    \item $\displaystyle \int \frac{x}{1 + x^4} , dx$
+    \item $\displaystyle \int e^{\sqrt{x}} , dx$
+    \item $\displaystyle \int \frac{1}{\csc^3(x)} , dx$
+    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1 - x^2}} , dx$
+    \item $\displaystyle \int \sqrt{1 + \sin(2x)} , dx$
+    \item $\displaystyle \int x^{1/4} , dx$
+    \item $\displaystyle \int \frac{1}{1 + e^x} , dx$
+    \item $\displaystyle \int \sqrt{1 + e^x} , dx$
+    \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} , dx$
+    \item $\displaystyle \int \frac{1}{1 + \sin(x)} , dx$
+    \item $\displaystyle \int \left( \frac{\sin(x)}{x} + \ln(x) \cos(x) \right) , dx$
+    \item $\displaystyle \int \frac{1}{\cos(x)} , dx$
+    \item $\displaystyle \int \sin(x)^3/(\cos(x)^3 + \sin(x)^3) \, dx$
+    \item $\displaystyle \int \frac{x}{1 + x^4} \, dx$
+    \item $\displaystyle \int e^{\sqrt{x}} \, dx$
+    \item $\displaystyle \int \frac{1}{\csc(x)^3} \, dx$
+    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \sqrt{1+\sin(2x)} \, dx$
+    \item $\displaystyle \int x^{1/4} \, dx$
+    \item $\displaystyle \int \frac{1}{1+e^x} \, dx$
+    \item $\displaystyle \int \sqrt{1+e^x} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} \, dx$
+    \item $\displaystyle \int \frac{1}{1+\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{x} + \ln(x)\cos(x) \, dx$
+    \item $\displaystyle \int \sin(x)^3/(\cos(x)^3 + \sin(x)^3) \, dx$
+    \item $\displaystyle \int \frac{x}{1 + x^4} \, dx$
+    \item $\displaystyle \int e^{\sqrt{x}} \, dx$
+    \item $\displaystyle \int \frac{1}{\csc(x)^3} \, dx$
+    \item $\displaystyle \int \frac{\arcsin(x)}{\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \sqrt{1+\sin(2x)} \, dx$
+    \item $\displaystyle \int x^{1/4} \, dx$
+    \item $\displaystyle \int \frac{1}{1+e^x} \, dx$
+    \item $\displaystyle \int \sqrt{1+e^x} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{\tan(x)}}{\sin(2x)} \, dx$
+    \item $\displaystyle \int \frac{1}{1+\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{x} + \ln(x)\cos(x) \, dx$
+    \item $\displaystyle \int \frac{1}{x(1+\sin(\ln(x))^2)} \, dx$
+    \item $\displaystyle \int \sqrt{\frac{1-x}{1+x}} \, dx$
+    \item $\displaystyle \int x^{x/\ln(x)} \, dx$
+    \item $\displaystyle \int \sqrt{\tan(x)} \, dx$
+    \item $\displaystyle \int \frac{x}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{1-\cos(x)}}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{\sqrt{1+\cos(x)}}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{x\cos(x)}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{x\sin(x)}{\sqrt{1+\sin(x)}} \, dx$
+    \item $\displaystyle \int \frac{x\sin(x)}{\sqrt{1-\sin(x)}} \, dx$
+    \item $\displaystyle \int \frac{1}{x\sqrt{x^2-1}} \, dx$
+    \item $\displaystyle \int \frac{1}{\sqrt{x^2-1}} \, dx$
+    \item $\displaystyle \int \frac{1}{x\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \frac{\cos(x)}{\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{\sqrt{1-x^2}} \, dx$
+    \item $\displaystyle \int \sqrt{1-x^2} \, dx$
+    \item $\displaystyle \int \frac{\cos(x)}{\sqrt{x^2-1}} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{\sqrt{x^2-1}} \, dx$
+    \item $\displaystyle \int \sqrt{x^2-1} \, dx$
+    \item $\displaystyle \int \sin(x)\cos(x) \, dx$
+    \item $\displaystyle \int \frac{\sin^2(x)}{\cos^2(x)} \, dx$
+    \item $\displaystyle \int \frac{\cos^2(x)}{\sin^2(x)} \, dx$
+    \item $\displaystyle \int \sqrt{\frac{1-\sin(x)}{1+\sin(x)}} \, dx$
+    \item $\displaystyle \int \sqrt{\frac{1+\sin(x)}{1-\sin(x)}} \, dx$
+    \item $\displaystyle \int \frac{\cos(x)}{\sin^2(x)} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{\cos^2(x)} \, dx$
+    \item $\displaystyle \int \frac{\cos(x)}{\cos^2(x)} \, dx$
+    \item $\displaystyle \int \frac{\sin(x)}{\sin^2(x)} \, dx$
+    \item $\displaystyle \int \sin(x)\tan(x) \, dx$
+    \item $\displaystyle \int \cos(x)\cot(x) \, dx$
+    \item $\displaystyle \int \frac{\tan(x)}{\sin(x)} \, dx$
+    \item $\displaystyle \int \frac{\cot(x)}{\cos(x)} \, dx$
+    \item $\displaystyle \int \sin^2(x)\cot(x) \, dx$
+    \item $\displaystyle \int \cos^2(x)\tan(x) \, dx$
+    \item $\displaystyle \int \sqrt{1+\sin(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1-\sin(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1+\cos(x)} \, dx$
+    \item $\displaystyle \int \sqrt{1-\cos(x)} \, dx$
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
